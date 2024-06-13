@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CALIFICACIONES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>CALIFICACIONES SEMESTRALES DE MODULO</h1>
+
+  <form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" required><br>
+
+    <label for="grupo">Grado y sección:</label>
+    <input type="text" id="grupo" required><br>
+
+    <label for="especialidad">Especialidad:</label>
+    <input type="text" id="especialidad" required><br>
+
+    <h2>MODULO II. Aplica metodologías de desarrollo de software con herramientas de
+      programación visual</h2>
+    <h3>Aplica la metodología de desarrollo rápido de aplicaciónes con programación orientada
+      a eventos</h3>
+    <label for="calificacion1">Calificación UNIDAD 1:</label>
+    <input type="number" id="calificacion1" required><br>
+
+    <label for="calificacion2">Calificación UNIDAD 2:</label>
+    <input type="number" id="calificacion2" required><br>
+
+    <label for="calificacion3">Calificación UNIDAD 3:</label>
+    <input type="number" id="calificacion3" required><br>
+
+    <h3>Aplica metodología espiral con programación orientada a objetos</h3>
+    <label for="calificacion4">Calificación UNIDAD 1:</label>
+    <input type="number" id="calificacion4" required><br>
+
+    <label for="calificacion5">Calificación UNIDAD 2:</label>
+    <input type="number" id="calificacion5" required><br>
+
+    <label for="calificacion6">Calificación UNIDAD 3:</label>
+    <input type="number" id="calificacion6" required><br>
+
+    <input type="button" value="Imprimir" id="prueba" onclick="imprimirPDF()">
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.16.0/pdf-lib.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
